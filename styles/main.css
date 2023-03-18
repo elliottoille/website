@@ -22,23 +22,44 @@ body {
     padding: 0;
     margin: 0;
 }
-.nav ul {
+.nav .title-ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     height: 100%;
+    float: right;
+    vertical-align: middle;
 }
-.nav ul li a {
+.nav .title-ul .title-li {
+    float: right;
+    font-size: 20pt;
+    line-height: 80px;
+}
+.nav .nav-ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    height: 100%;
+    line-height: 80px;
+}
+.nav .nav-ul li a {
     color: white;
-    font-size: 24pt;
+    font-size: 18pt;
     display: block;
-    text-align: center;
-    padding: 14px 16px;
+    text-align: left;
     text-decoration: none;
     font-weight: 700;
     text-transform: uppercase;
 }
-.nav ul li {
+.nav .nav-ul li a:hover {
+    color: #c0c0c0;
+}
+.nav .nav-ul li {
     float: left;
+    margin-right: 36px;
+}
+.content p {
+    text-align: justify;
 }
