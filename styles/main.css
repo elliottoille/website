@@ -63,3 +63,54 @@ body {
 .content p {
     text-align: justify;
 }
+#custBold {
+    font-weight: 700;
+    text-transform: uppercase;
+}
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+footer .footer-ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    line-height: 80px;
+}
+footer .footer-ul li {
+    float: left;
+    margin-right: 36px;
+}
+footer .footer-ul li a {
+    color: white;
+    font-size: 16pt;
+    display: block;
+    text-align: left;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+footer .footer-ul li a:hover {
+    color: #c0c0c0;
+}
+footer .copyright-ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    height: 100%;
+    float: right;
+    vertical-align: middle;
+}
+footer .copyright-ul li {
+    float: right;
+    font-size: 12pt;
+    line-height: 80px;
+    text-transform: uppercase;
+}
+.main {
+    min-height: calc(100vh - 160px);
+}
