@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,400;0,700;1,400&display=swap');
+* {
+    font-family: 'Roboto Mono', monospace;
+}
+body {
+    margin: 0;
+    padding: 0;
+    color: white;
+    height: fit-content;
+}
+p {
+    text-align: justify;
+}
+#custBold {
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.grid {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 40%;
+    padding: 0;
+    margin: 0;
+}
+.grid-item {
+    padding: 20px;
+    background-color: #080808;
+}
+.grid-item a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+.grid-item a:hover {
+    color: #c0c0c0;
+}
+.grid-item:hover {
+    background-color: #101010;
+}
+.grid-item:nth-child(odd):hover {
+    background-color: #101010;
+}
+.grid-item:nth-child(odd) {
+    background-color: #0b0b0b;
+}
+
+.grid-home {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 60%;
+    padding: 0;
+    margin: 0;
+}
+h1 {
+    margin-bottom: 8px;
+}
+#link {
+    color: #cf1010;
+    text-decoration: none;
+}
+#link:hover {
+    color: #df1010;
+    text-decoration: underline;
+}
+.grid-home-item {
+    padding: 20px;
+    background-color: #080808;
+}
+.grid-home-item a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+.grid-home-item a:hover {
+    color: #c0c0c0;
+}
+.grid-home-item:hover {
+    background-color: #101010;
+}
+.grid-home-item:nth-child(odd):hover {
+    background-color: #101010;
+}
+.grid-home-item:nth-child(odd) {
+    background-color: #0b0b0b;
+}
